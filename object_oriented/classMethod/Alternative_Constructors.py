@@ -30,6 +30,6 @@ jack.changeleaves(15)
 
 print(jack.number_of_leaves)
 
-print(pratik.printdetail())
+#(pratik.printdetail())
 
 print(john.printdetail())
