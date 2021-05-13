@@ -15,3 +15,4 @@ class Child(Parent2,Parent):
 child=Child()
 print(child.__dict__)
 print(child.__repr__())
+
