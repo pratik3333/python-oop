@@ -16,6 +16,8 @@ class Square(Shape):
     def perimeter(self):
         return 4*self.__side
 
-square=Square(5)
+
+
+square=Square(6)
 print(square.area())
 print(square.perimeter())
