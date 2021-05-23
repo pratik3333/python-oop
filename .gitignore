@@ -14,5 +14,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+<<<<<<< HEAD
 
 requirements.txt/
+=======
+venv/
+my_project/
+>>>>>>> develop2
