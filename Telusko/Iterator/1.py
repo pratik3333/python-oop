@@ -7,5 +7,7 @@ nums=[2,3,4,567,87,43]
 it=iter(nums)
 
 print(it.__next__())
-print(it.__next__())
-print(it.__next__())
+print(next(it))
+
+for i in nums:
+    print(i)
