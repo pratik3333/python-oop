@@ -6,4 +6,4 @@ def topten():
 
 
 values=topten()
-print(values)
+print(values.__next__())
