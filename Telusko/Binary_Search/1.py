@@ -12,12 +12,13 @@ def search(list,n):
             return True
         else:
             if list[mid]<n:
-                l=mid
+                l=mid+1
             else:
-                u=mid
+                u=mid+1
+    return False
 
 list=[23,5,4,5,56,6,8675,878,45,4345343,456]
-n=878
+n=10
 
 if search(list,n):
     print("found at",pos+1)
